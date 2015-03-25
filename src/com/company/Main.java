@@ -56,6 +56,6 @@ public class Main {
         String m5 = mas2[1];
         String m6 = mas2[2];
         System.out.println(m1 + m2 + m3 + m4);
-//test1 new push
+//test1 new push  C:\Sokol\Project1>git clone https://github.com/Vitalii-Sokol/Repo1.git
     }
 }
