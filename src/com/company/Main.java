@@ -22,7 +22,7 @@ public class Main {
         /*String h = "Some \n 10\n  string";
         System.out.print(h);
         */
-        boolean t = true;
+      /*  boolean t = true;
         boolean f = false;
 
         t = 5 == 5;
@@ -57,5 +57,8 @@ public class Main {
         String m6 = mas2[2];
         System.out.println(m1 + m2 + m3 + m4);
 //test1 new push  C:\Sokol\Project1>git clone https://github.com/Vitalii-Sokol/Repo1.git
+ */
+
+     System.out.println(args[0]);
     }
 }
