@@ -1,33 +1,42 @@
 package com.company;
 
-public class Door2
-{
+public class Door2 {
     //set all parameters to Door class
     public int height;
     public boolean isOpened;
-    public Door2(int h)
-    {
+
+    public Door2(int h) {
         this.height = h;
         isOpened = false;   //set for preconditions: all doors are closed
     }
 
-    public static void main(String[] args)
-    {
-        Door2 k = new Door2 (100);
-        Door2 l = new Door2 (190);
-        int d = k.height;
-        k.isOpened = true;   //set k Door is opened
+    public static void main(String[] args) {
+        Door k = new Door(100);
+        Door l = new Door(190);
 
+
+        System.out.println("k height is" + k.height);
+        if k.isOpened = true;
+        System.out.println("k is OPENED");
     }
 
-    public void close()
+    else
+
     {
-        isOpened=false;
-        System.out.println("Closing door");
+        System.out.println("k is CLOSED");
     }
 
+    k.height=500;
+    System.out.println("k heigher is"+k.heigher);
+    k.closed;
+    if(k.isOpened)
 
-    /*String s = "Door2"1;
-    int i = s. length();
-    */
+    {
+        System.out.printl("k is OPENED");
+        else{
+        System.out.println("k is CLOSED");
+    }
+
+    }
 }
+

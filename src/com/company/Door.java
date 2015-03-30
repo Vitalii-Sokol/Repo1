@@ -7,7 +7,7 @@ package com.company;
         public boolean isOpened;
         public Door(int h)
         {
-           this.height = h;
+            height = h;
             isOpened = false;   //set for preconditions: all doors are closed
         }
 
