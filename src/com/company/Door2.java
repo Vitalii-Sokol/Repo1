@@ -27,7 +27,7 @@ public class Door2
     }
 
 
-    /*String s = "Door2";
+    /*String s = "Door2"1;
     int i = s. length();
     */
 }
