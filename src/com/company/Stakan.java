@@ -1,14 +1,10 @@
 package com.company;
 
-/**
- * Created by Admin on 01.04.15.
- */
 public class Stakan
 {
     public int height;
     public boolean isFull;
     public Stakan(int h)
-
 
     {
         height = h;  //set for preconditions: all doors are closed
@@ -17,11 +13,17 @@ public class Stakan
 
     public static void main(String[] args)
     {
-        Stakan 1 = new Stakan (100);
-        Stakan 2 = new Stakan (70);
-        int d = k.height;
-        k.isOpened = true;   //set k Door is opened
+        Stakan a = new Stakan (100);
+        Stakan b = new Stakan (70);
+        int h = a.height;
+        a.isFull = true;   //set k Door is opened
 
+    }
+
+    public void close()
+    {
+        isFull=true;
+        System.out.println("Stakan is full");
     }
 
 }
