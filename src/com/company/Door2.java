@@ -10,7 +10,8 @@ public class Door2 {
         isOpened = false;   //set for preconditions: all doors are closed
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Door k = new Door(100);
         Door l = new Door(190);
 
