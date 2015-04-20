@@ -65,6 +65,19 @@ public class PasswordTest2withShortXPATH {
         value = btnGen.getAttribute("value");
     }
 
+   /* public void getSiteName ()
+
+   // WebElement btnGen = driver.findElement(By.xpath("/html/body/form/table/tbody/tr[2]/td[1]"));
+   WebElement labe = driver.findElement(By.xpath("[//*td() = 'Site name']"));
+   */
+
+    {
+        //WebElement btnGen = driver.findElement(By.xpath("/html/body/form/table/tbody/tr[3]/td/input"));
+        WebElement btnGen = driver.findElement(By.xpath("//*[@type = 'submit' and  @value = 'Generate']"));
+        // <input type="submit" value="Generate">
+        value = btnGen.getAttribute("value");
+    }
+
     public void getMaxValue ()
     {
         getMaxValue = "";
