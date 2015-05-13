@@ -133,3 +133,13 @@ public class PasswordTest2 {
         driver.quit();
     }
 }
+
+
+/* How to  run test on cmd:
+java -classpath "C:/test/selenium-java-2.44.0/selenium-2.44.0/*;C:/test/selenium-java-2.44.0/selenium-2.44.0/libs/*;C:/Sokol/Project1/out/production/Project1" org.junit.runner.JUnitCore com.company.PasswordTest2
+ */
+
+/*
+C:\Documents and Settings\Admin>javac -classpath "C:/test/selenium-java-2.44.0/selenium-2.44.0/*;C:/test/selenium-java-2.44.0/selenium-2.44.0/libs/*;C:/Sokol/Project1/out/production/Project1" -encoding utf8 -d "C:/Sokol/Project1/out/production/Project1" C:/Sokol/Project1/src/com/company/*.java
+
+ */

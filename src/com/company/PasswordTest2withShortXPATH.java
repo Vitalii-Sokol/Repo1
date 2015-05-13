@@ -65,11 +65,17 @@ public class PasswordTest2withShortXPATH {
         value = btnGen.getAttribute("value");
     }
 
-   /* public void getSiteName ()
+/*
+    public void getLabelSiteName (String LabelSiteName)
 
-   // WebElement btnGen = driver.findElement(By.xpath("/html/body/form/table/tbody/tr[2]/td[1]"));
+   // WebElement lable = driver.findElement(By.xpath("/html/body/form/table/tbody/tr[2]/td[1]"));
    WebElement labe = driver.findElement(By.xpath("[//*td() = 'Site name']"));
-   */
+    value = labe.getAttribute("Site name");
+*/
+
+/*
+
+
 
     {
         //WebElement btnGen = driver.findElement(By.xpath("/html/body/form/table/tbody/tr[3]/td/input"));
@@ -77,7 +83,7 @@ public class PasswordTest2withShortXPATH {
         // <input type="submit" value="Generate">
         value = btnGen.getAttribute("value");
     }
-
+*/
     public void getMaxValue ()
     {
         getMaxValue = "";
@@ -88,6 +94,33 @@ public class PasswordTest2withShortXPATH {
         }
 
     }
+
+    @Test
+    public void testSiteName(){
+        //List<WebElement> list = new ArrayList<WebElement>(h.findElements(By.xpath("td[text()='Site name']")));
+        WebElement td = driver.findElement(By.xpath("//td[text()='Site name']"));
+        String title = td.getText();
+        Assert.assertEquals("Test","Site name", title);
+    }
+
+    @Test
+    public void testLabelSiteName(){
+        //List<WebElement> list = new ArrayList<WebElement>(h.findElements(By.xpath("td[text()='Your master password']")));
+        WebElement td = driver.findElement(By.xpath("//td[text()='Site name']"));
+        String title = td.getText();
+        //String title = list.get(5).getText();
+        Assert.assertEquals("Test","Site name", title);
+    }
+/*
+    @Test
+    public void testLabelGeneratedPassword(){
+        //List<WebElement> list = new ArrayList<WebElement>(h.findElements(By.xpath("td[text()='Your master password']")));
+        WebElement td = driver.findElement(By.xpath("//td[text()='Generated password']"));
+        String title = td.getText();
+        //String title = list.get(5).getText();
+        Assert.assertEquals("Test","Generated password", title);
+    }
+*/
     @Test
     public void test1NewSite() throws InterruptedException
     {
