@@ -10,8 +10,7 @@ import java.util.List;
 
 public class OpenBrowser {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver",
-                "C:/test/chromedriver_win32/chromedriver.exe"); //set parameters to chromedriver
+        System.setProperty("webdriver.chrome.driver", "C:/test/chromedriver_win32/chromedriver.exe"); //set parameters to chromedriver
 
         WebDriver Browsedriver = new ChromeDriver();  //open chrome browser
         Browsedriver.manage().window().maximize();  //expand to full window
