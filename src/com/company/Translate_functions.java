@@ -22,7 +22,8 @@ public class Translate_functions {
     public static void openBrowser() throws InterruptedException
 
     {
-        System.setProperty("webdriver.chrome.driver","C:/test/chromedriver_win32/chromedriver.exe");
+        // System.setProperty("webdriver.chrome.driver","C:/test/chromedriver_win32/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
         Translate_Path.driver = new ChromeDriver();
         Translate_Path.driver.get(Translate_Path.Page);
     }
